@@ -1,0 +1,19 @@
+import React from 'react';
+import { Link } from 'react-router';
+
+export default class ActorLinks extends React.Component {
+	render(){
+		return (
+		<nav>
+		<ul className="vertical medium-horizontal menu items">
+			<li><Link to="/actors/HarrisonFord" activeClassName="active">Harrison Ford</Link></li>
+			<li><Link to="/actors/MarkHamill" activeClassName="active">Mark Hamill</Link></li>
+			<li><Link to="/actors/CarrieFisher" activeClassName="active">Carrie Fisher</Link></li>
+		</ul>	
+		</nav>
+		
+		);	
+		
+	}
+}
+
